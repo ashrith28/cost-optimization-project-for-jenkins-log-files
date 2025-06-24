@@ -118,3 +118,31 @@ Wait for the Jenkins to be restarted.
 http://<ec2-instance-public-ip>:8080/restart
 ```
 
+Install AWS CLI (v2)
+To use this script, you need the AWS CLI installed on your machine. Follow the steps below to install it:
+
+```
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+```
+
+```
+aws --version
+```
+Configure AWS CLI
+Once installed, configure your credentials:
+
+```
+aws configure
+```
+
+You'll be prompted to enter:
+
+AWS Access Key ID :
+
+AWS Secret Access Key:
+
+Default region name (e.g., us-east-1):
+
+Default output format (e.g., json):
