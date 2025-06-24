@@ -42,7 +42,9 @@ Install Java
 
 `Verify Java is Installed`
 
-`java -version`
+```
+java -version
+```
 
 Now, you can proceed with installing Jenkins
 
@@ -117,5 +119,7 @@ Restart Jenkins after the plugin is installed.
 Wait for the Jenkins to be restarted.
 
 
-`http://<ec2-instance-public-ip>:8080/restart`
+```
+http://<ec2-instance-public-ip>:8080/restart
+```
 
