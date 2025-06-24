@@ -4,6 +4,9 @@ This project provides a lightweight Shell script to automatically collect daily 
 
 Tools used :
 Jenkins build logs
+
 AWS S3 archival
+
 CI/CD cost control
+
 Shell scripting + AWS CL
