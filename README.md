@@ -130,19 +130,30 @@ sudo ./aws/install
 ```
 aws --version
 ```
-Configure AWS CLI
-Once installed, configure your credentials:
 
+Create an AWS IAM User:
+To interact with AWS programmatically, you should create an IAM (Identity and Access Management) user with appropriate permissions. Here's how to create one:
+
+a. Log in to the AWS Management Console with an account that has administrative privileges.
+
+b. Navigate to the IAM service.
+
+c. Click on "Users" in the left navigation pane and then click "Add user."
+
+Choose a username, select "Programmatic access" as the access type, and click "Next: Permissions."
+
+Attach policies to this user based on your requirements. At a minimum, you should attach the "AmazonEC2FullAccess" policy for basic EC2 operations. If you need access to other AWS services, attach the relevant policies accordingly.
+
+Review the user's configuration and create the user. Be sure to save the Access Key ID and Secret Access Key that are displayed after user creation; you'll need these for Terraform.
+
+Configure AWS CLI Credentials:
+Use the AWS CLI to configure your credentials. Open a terminal and run:
 ```
 aws configure
 ```
-
-You'll be prompted to enter:
-
-AWS Access Key ID :
-
-AWS Secret Access Key:
-
-Default region name (e.g., us-east-1):
-
-Default output format (e.g., json):
+It will prompt you to enter your 
+AWS Access Key ID
+Secret Access Key
+default region
+default output format
+Enter the credentials you obtained in the previous step.
