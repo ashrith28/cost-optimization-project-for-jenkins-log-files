@@ -97,5 +97,5 @@ Restart Jenkins after the plugin is installed.
 Wait for the Jenkins to be restarted.
 
 
-`http://<ec2-instance-public-ip>:8080/restart`
-The docker agent configuration is now successful
+```http://<ec2-instance-public-ip>:8080/restart```
+
