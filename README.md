@@ -162,3 +162,15 @@ default region
 default output format
 
 Enter the credentials you obtained in the previous step.
+
+![image](https://github.com/user-attachments/assets/e107ffd1-8eb0-4936-a00c-4a5809ab1f15)
+
+
+![Screenshot from 2025-06-28 13-14-57](https://github.com/user-attachments/assets/2a6a2ba5-6cfc-4728-9d98-913805a3df00)
+
+![image](https://github.com/user-attachments/assets/7d143b61-399c-40d3-9b77-6be201d3daf6)
+
+
+![Uploading image.png…]()
+
+
