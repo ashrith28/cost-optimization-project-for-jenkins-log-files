@@ -171,6 +171,6 @@ Enter the credentials you obtained in the previous step.
 ![image](https://github.com/user-attachments/assets/7d143b61-399c-40d3-9b77-6be201d3daf6)
 
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/13ef02fa-902d-4e40-8c40-4e943f214d75)
 
 
